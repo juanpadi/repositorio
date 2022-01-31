@@ -15,9 +15,12 @@
   align-items: center;
   height: 9vh;
   background-color: #1f2024;
-  padding-left: 3vw;
+  padding-left: 2vw;
+  border-top: rgb(68, 68, 68) 1rem solid;
 }
-
+.logo{
+  padding-top: 0.3em;
+}
 .nav ul {
   display: flex;
   list-style: none;
@@ -38,6 +41,7 @@
   /* border-bottom: solid orange 4px; */
   padding: 0.8rem;
   border-radius: 0.5em;
+  color: #f18416;
 }
 
 /*----------------HASTA ACA HEADER-------------------*/
@@ -155,7 +159,6 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
 }
 
@@ -172,7 +175,6 @@
 }
 
 .imagenes {
-  background-color: rgb(68, 68, 68);
   grid-area: 3 / 1 / 7 / 7;
 }
 
@@ -196,11 +198,11 @@
   width: 90%;
   margin: auto;
   gap: 10px;
-  background-color: rgb(68, 68, 68);
 }
 .team__card {
   width: 18%;
   min-width: 225px;
+  text-align: center;
 }
 .team__img {
   width: 100%;
@@ -226,7 +228,7 @@
   width: 90%;
   margin: auto;
   gap: 10px;
-  background-color: rgb(68, 68, 68);
+  text-align: center;
 }
 
 .footer {
