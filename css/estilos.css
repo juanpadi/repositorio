@@ -16,11 +16,10 @@
   height: 9vh;
   background-color: #1f2024;
   padding-left: 2vw;
-  border-top: rgb(68, 68, 68) 1rem solid;
+  border-top: #1f2024 1rem solid;
+  height: 6em;
 }
-.logo{
-  padding-top: 0.3em;
-}
+
 .nav ul {
   display: flex;
   list-style: none;
@@ -40,7 +39,7 @@
   background-color: rgb(68, 68, 68);
   /* border-bottom: solid orange 4px; */
   padding: 0.8rem;
-  border-radius: 0.5em;
+  border-radius: 1em;
   color: #f18416;
 }
 
@@ -199,14 +198,17 @@
   margin: auto;
   gap: 10px;
 }
+
 .team__card {
   width: 18%;
   min-width: 225px;
   text-align: center;
 }
+
 .team__img {
   width: 100%;
 }
+
 .tr {
   grid-area: 5 / 1 / 6 / 7;
   font-family: "Bebas Neue";
@@ -234,12 +236,14 @@
 .footer {
   grid-area: 7 / 1 / 8 / 7;
 }
+
 .imagenes .subimg h3 {
   color: #f18416;
   border: solid 3px;
   border-radius: 0.5em;
   margin-bottom: 0.5em;
 }
+
 .imagenes > .subimg2 h3 {
   color: #fff;
   border: solid 3px;
@@ -263,3 +267,7 @@
 }
 
 /*  */
+
+.g-3 {
+  background-color: rgb(68, 68, 68);
+}
