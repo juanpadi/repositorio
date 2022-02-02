@@ -52,6 +52,29 @@
   justify-content: center;
 }
 
+@media only screen and (min-width: 1200px){
+
+}
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/* Escritorio pequeño / tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+/* Tablets y phablets */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 575px){
+
+ .video{background-size: 50%;}
+}
 .video {
   position: fixed;
   top: 50%;
@@ -60,23 +83,8 @@
   /* min-width: 100%;
     min-height: 100%; */
   transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 100vh;
 }
 
-/* @media (max-aspect-ratio: 16/9) {
-  #video{ 
-      width:auto;
-      height: 100%;
-  }
-}
-
-@media (min-aspect-ratio: 16/9) {
-  #video {
-      width:100%;
-      height: auto;
-  }
-} */
 
 .crazyTigers {
   display: flex;
