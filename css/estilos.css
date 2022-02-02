@@ -18,13 +18,16 @@
   padding-left: 2vw;
   border-top: #1f2024 1rem solid;
   height: 6em;
+  justify-content: space-between;
 }
 
-.nav ul {
+.nav .lista ul{
   display: flex;
   list-style: none;
 }
-
+.lista{
+ float: right;
+}
 .nav a {
   text-decoration: none;
   color: lightgrey;
