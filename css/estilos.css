@@ -6,29 +6,103 @@
   box-sizing: border-box;
 }
 
-.encabezado {
-  background-color: rgb(68, 68, 68);
+
+/*------header-----*/
+
+.barraSuperior {
+  height: 10vh;
+  font-family: 'Outfit', sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2024;
+  align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+
+}
+
+
 .nav {
+  display: flex;
+  align-items: center;
+  padding-right: 1em;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav li {
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-nav{
+  background-color: #1f2024;
+}
+
+.navbar-toggler{
+  background-color: #f18416;
+}
+
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo img {
+  width: 5vw;
+}
+
+
+
+
+.nav2 {
   display: flex;
   align-items: center;
   height: 9vh;
   background-color: #1f2024;
   padding-left: 2vw;
-  border-top: #1f2024 1rem solid;
   height: 6em;
   justify-content: space-between;
 }
 
-.nav .lista ul{
+.nav2 ul{
+  display: flex;
+}
+
+.nav2 .lista ul{
   display: flex;
   list-style: none;
 }
 .lista{
  float: right;
-}
-.nav a {
+} 
+.nav2 a {
   text-decoration: none;
   color: lightgrey;
   font-size: 1.25vw;
@@ -36,20 +110,18 @@
   padding-right: 1vw;
   font-family: "Overpass", sans-serif;
 } 
-.nav img{
+.nav2 img{
   width: 95px;
   max-width: 100%;
   height: 80px;
   max-height: 100%;
 }
-.nav li a:hover {
+.nav2 li a:hover {
   transition: all 0.5s;
+  border-radius: 0.3em;
   background-color: rgb(68, 68, 68);
-  /* border-bottom: solid orange 4px; */
-  /* padding: 0.8rem; */
-  border-radius: 1.5em;
   color: #f18416;
-}
+} 
 
 /*----------------HASTA ACA HEADER-------------------*/
 
@@ -83,10 +155,10 @@
 
  .video{background-size: 50%;
 }
- .logo img{
-   width: 60px;
-   height: 50px;
-}
+ .logo img {
+   width: 12vw;
+   padding-top: -10em;
+ }
   .nav a{
     font-size: 2vw;
   }
@@ -190,9 +262,9 @@
 
 /* equipos */
 
-.container {
+.container2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 0px 0px;
 }
 
@@ -222,6 +294,10 @@
   padding-top: 0.6em;
   font-size: 2.5vw;
   -webkit-text-stroke: 1px black;
+}
+
+.main2{
+  background-color: rgb(68, 68, 68);
 }
 
 .subimg {
